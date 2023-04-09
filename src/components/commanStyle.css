@@ -1,0 +1,29 @@
+
+  .container{
+    display: flex;
+  }
+  .post_container{
+    width: 70%;
+    
+  }
+  .profile_container{
+    width: 30%;
+    
+  }
+
+  @media only screen and (max-width: 700px) {
+    .container {
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+    }
+    .post_container{
+        width: 90%;
+        
+      }
+      .profile_container{
+        width: 100%;
+        
+      }
+  }
